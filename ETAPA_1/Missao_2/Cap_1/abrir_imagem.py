@@ -4,7 +4,7 @@
 import cv2 
 
 # Leitura da imagem com a função -imread(<nome_da_imagem>)- 
-imagem = cv2.imread('entrada.jpg') 
+imagem = cv2.imread(r'ETAPA_1//Missao_2//Cap_1//Imagem//entrada.jpg') 
 print('Largura em pixels: ', end='') 
 print(imagem.shape[1]) #largura da imagem 
 print('Altura em pixels: ', end='') 
@@ -18,4 +18,4 @@ cv2.imshow("Nome da janela", imagem)
 cv2.waitKey(0) #espera pressionar qualquer tecla
 
 # Salvar a imagem no disco com função -imwrite(<novo_nome>, <imagem>)- 
-cv2.imwrite("saida.jpg", imagem)
+cv2.imwrite(r'ETAPA_1//Missao_2//Cap_1//Imagem//saida.jpg', imagem)
